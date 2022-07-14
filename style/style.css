@@ -164,6 +164,17 @@ main {
     font-family: "Inter", sans-serif;
 }
 
+.main-comision-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+}
+.snap {
+    scroll-snap-align: center;
+}
+
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -174,12 +185,23 @@ main {
     margin-left: 12px;
 }
 
+.main-comision-table .comision-table--title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    color: var(--secundary-blue);
+    font-family: 'Inter';
+}
+
 .currency-table--container {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
     height: 230px;
     margin: 0 auto;
+    font-family: 'Inter';
 }
 
 .currency-table--container table {
@@ -264,6 +286,13 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     font-weight: 300;
+}
+.main-tables-container {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 .main-product-detail {
