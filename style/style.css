@@ -111,6 +111,9 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
+.main-tables-container {
+    font-family: 'Inter'
+}
 
 .main-exchange-container {
     width: 100%;
